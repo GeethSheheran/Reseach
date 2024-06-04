@@ -1,0 +1,56 @@
+.prediction-container {
+    background-image: url('https://bitcoinist.com/wp-content/uploads/2019/07/13-July-1-e1562961609201.jpg?fit=1920%2C1200');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .prediction-content {
+    text-align: center;
+    color: white;
+  }
+  
+  .prediction-content h1 {
+    font-size: 36px;
+  }
+  
+  .prediction-content p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .prediction-button,
+  .back-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .prediction-button {
+    background-color: #007bff; /* Blue color */
+    color: white;
+  }
+  
+  .prediction-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .back-button {
+    background-color: #6c757d; /* Gray color */
+    color: white;
+  }
+  
+  .back-button:hover {
+    background-color: #5a6268; /* Darker gray on hover */
+  }
+  
