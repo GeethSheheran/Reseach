@@ -1,56 +1,67 @@
 .prediction-container {
-    background-image: url('https://bitcoinist.com/wp-content/uploads/2019/07/13-July-1-e1562961609201.jpg?fit=1920%2C1200');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .prediction-content {
-    text-align: center;
-    color: white;
-  }
-  
-  .prediction-content h1 {
-    font-size: 36px;
-  }
-  
-  .prediction-content p {
-    font-size: 18px;
-    margin: 10px 0;
-  }
-  
-  .button-container {
-    margin-top: 20px;
-  }
-  
-  .prediction-button,
-  .back-button {
-    padding: 10px 20px;
-    margin: 0 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .prediction-button {
-    background-color: #007bff; /* Blue color */
-    color: white;
-  }
-  
-  .prediction-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-  }
-  
-  .back-button {
-    background-color: #6c757d; /* Gray color */
-    color: white;
-  }
-  
-  .back-button:hover {
-    background-color: #5a6268; /* Darker gray on hover */
-  }
-  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  width: 100vw; /* Set the width to 100% of the viewport width */
+  position: absolute; /* Position it absolutely relative to the nearest positioned ancestor */
+  top: 0;
+  left: 0;
+  background-image: url('https://4kwallpapers.com/images/wallpapers/dark-background-abstract-background-network-3d-background-3840x2160-8324.png');
+  background-size: cover;
+  background-position: center;
+  z-index: -1; /* Optional: ensure it's behind all other content */
+}
+
+
+.prediction-content, .chart-container {
+  flex: 1;
+  margin: 10px;
+  margin-top: 100px; /* Adjust top margin as needed */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow for better contrast */
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.8); /* Change to black with some transparency */
+  color: white; /* All text inside containers will be white */
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Top margin for table */
+}
+
+th, td {
+  border: 1px solid #666; /* Darker borders for table cells */
+  padding: 8px;
+  text-align: left;
+  color: white; /* Ensuring text in table is white */
+}
+
+th {
+  background-color: #333; /* Darker headers for the table */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin-top: 20px; /* Top margin for button container */
+}
+
+h1, .sub-header {
+  color: white; /* Ensuring headers are white */
+}
+
+.sub-header {
+  display: block;
+  font-size: 0.9em;
+  margin-top: 5px; /* Top margin for sub-header */
+}

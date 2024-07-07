@@ -1,6 +1,6 @@
 // Import necessary dependencies
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Changed import statement
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Navbar from './Navbar';
 import Home from './Home';
@@ -18,7 +18,7 @@ const App = () => {
         <div className="pt-0"></div>
         <Routes> 
           <Route path="/" element={<Home />} />
-          <Route path="/prediction" component={PredictionPage} />
+          <Route path="/prediction" element={<PredictionPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/signin" element={<SignIn />} />

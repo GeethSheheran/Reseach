@@ -5,8 +5,8 @@ const Home = () => {
   return (
     <div className="min-h-screen flex items-center justify-center">
       <div className="absolute inset-0 bg-cover bg-center" style={{ 
-        backgroundImage: "url('https://bitcoinist.com/wp-content/uploads/2019/07/13-July-1-e1562961609201.jpg?fit=1920%2C1200')",
-        filter: "brightness(50%) blur(4px)"
+        backgroundImage: "url('https://4kwallpapers.com/images/wallpapers/dark-background-abstract-background-network-3d-background-3840x2160-8324.png')",
+        filter: "brightness(50%)"
       }}></div>
       <div className="relative z-10 text-center text-white">
         <h1 className="text-4xl font-bold mb-8 text-white mx-auto" style={{ maxWidth: '75%' }}>Portfolio Optimization System for Stock Market and Cryptocurrency Market by Predicting Behavior</h1>
