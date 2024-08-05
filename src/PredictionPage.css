@@ -1,67 +1,77 @@
-.prediction-container {
+.forecast-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   padding: 20px;
-  height: 100vh; /* Set the height to 100% of the viewport height */
-  width: 100vw; /* Set the width to 100% of the viewport width */
-  position: absolute; /* Position it absolutely relative to the nearest positioned ancestor */
+  height: 100vh; 
+  width: 100vw; 
+  position: absolute; 
   top: 0;
   left: 0;
   background-image: url('https://4kwallpapers.com/images/wallpapers/dark-background-abstract-background-network-3d-background-3840x2160-8324.png');
   background-size: cover;
   background-position: center;
-  z-index: -1; /* Optional: ensure it's behind all other content */
+  z-index: -1; 
 }
 
-
-.prediction-content, .chart-container {
+.forecast-content {
   flex: 1;
   margin: 10px;
-  margin-top: 100px; /* Adjust top margin as needed */
+  margin-top: 100px;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow for better contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
   border-radius: 10px;
-  background: rgba(0, 0, 0, 0.8); /* Change to black with some transparency */
-  color: white; /* All text inside containers will be white */
+  background: rgba(0, 0, 0, 0.8); 
+  color: white; 
 }
 
-.chart-container {
+.forecast-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.data-list, .chart-box {
+  flex: 1;
+  margin: 10px;
+}
+
+.data-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; 
+}
+
+.data-list th, .data-list td {
+  border: 1px solid #666; 
+  padding: 8px;
+  text-align: left;
+  color: white; 
+}
+
+.data-list th {
+  background-color: #333; 
+}
+
+.chart-box {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px; /* Top margin for table */
-}
-
-th, td {
-  border: 1px solid #666; /* Darker borders for table cells */
-  padding: 8px;
-  text-align: left;
-  color: white; /* Ensuring text in table is white */
-}
-
-th {
-  background-color: #333; /* Darker headers for the table */
-}
-
-.button-container {
+.action-buttons {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
-  margin-top: 20px; /* Top margin for button container */
+  margin-top: 20px; 
 }
 
-h1, .sub-header {
-  color: white; /* Ensuring headers are white */
+h1, .forecast-sub-header {
+  color: white; 
 }
 
-.sub-header {
+.forecast-sub-header {
   display: block;
   font-size: 0.9em;
-  margin-top: 5px; /* Top margin for sub-header */
+  margin-top: 5px; 
 }

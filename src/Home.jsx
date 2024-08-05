@@ -13,15 +13,15 @@ const Home = () => {
         <h2 className="text-xl mb-8 text-white">Enter number of dates that you want to Predict best stocks and cryptocurrency to buy</h2>
         <form className="flex items-center justify-center">
           <input type="text" className="px-8 py-2 rounded-l-md focus:outline-none border border-blue-700 text-black" placeholder="No. of Prediction Dates" />
-          <select className="px-8 py-2 border border-blue-700 text-black">
+          {/* <select className="px-8 py-2 border border-blue-700 text-black">
             <option value="stocks">Stock1</option>
             <option value="crypto">Stock2</option>
           </select>
           <select className="px-8 py-2 border border-blue-700 text-black">
             <option value="best">Cryptocurrency1</option>
             <option value="worst">Cryptocurrency2</option>
-          </select>
-          <Link to="/prediction">
+          </select> */}
+          <Link to="/select">
             <button className="bg-blue-900 hover:bg-blue-700 px-4 py-2 rounded-r-md">
               Predict Data
             </button>

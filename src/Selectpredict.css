@@ -1,0 +1,115 @@
+.prediction-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh; 
+    background-image: url('https://4kwallpapers.com/images/wallpapers/dark-background-abstract-background-network-3d-background-3840x2160-8324.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .content-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px; 
+    width: 100%;
+    margin-top: 0vh;
+  }
+  
+  .prediction-content {
+    width: 45%;
+    background-color: #000000cd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.885);
+  }
+  
+  .prediction-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .sub-header {
+    display: block;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .selection{
+    width: 8vw;
+  }
+  
+  table th {
+    background-color: #000000;
+    color: white;
+  }
+
+  table td{
+    color: white;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .prediction-button,
+  .back-button,
+  .cancel-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .prediction-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .back-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .cancel-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .prediction-graph {
+    margin-top: 20px;
+  }
+  
+  .bought-items-container {
+    width: 80%;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+  }
+  
+  .bought-items-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
