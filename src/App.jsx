@@ -9,6 +9,7 @@ import Contact from './Contact';
 import SignIn from './SignIn'; 
 import PredictionPage from './PredictionPage';
 import SelectPredict from './Selectpredict';
+import SelectStock from './SelectStock';
 
 // Define your routes
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path="/select" element={<SelectPredict />} />
+          <Route path='/selection' element={<SelectStock/>} />
         </Routes> 
       </div>
     </Router>
