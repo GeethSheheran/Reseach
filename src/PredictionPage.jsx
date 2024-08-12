@@ -21,7 +21,7 @@ const PredictionPage = () => {
   }));
 
   const handleBackClick = () => {
-    navigate('/select');
+    navigate('/selection');
   };
 
   return (
