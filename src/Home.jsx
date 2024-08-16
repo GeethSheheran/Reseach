@@ -21,7 +21,7 @@ const Home = () => {
             <option value="best">Cryptocurrency1</option>
             <option value="worst">Cryptocurrency2</option>
           </select> */}
-          <Link to="/select">
+          <Link to="/selection">
             <button className="bg-blue-900 hover:bg-blue-700 px-4 py-2 rounded-r-md">
               Predict Data
             </button>
